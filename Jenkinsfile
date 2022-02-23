@@ -1,5 +1,5 @@
 pipeline {
-    agent any   ## node ('Testserver1') {}
+    agent any   
     stages {
         stage ('SCM for Java code')  {
             steps {
